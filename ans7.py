@@ -4,14 +4,14 @@ class Student:
 class Marks:
     pass
 
-sambhav=Student()
+Tushar=Student()
 
-sambhav_ke_marks=Marks()
+Tushar_ke_marks=Marks()
 
-print("Tushar is an instance of class Student:",isinstance(tushar,Student))
-print("Tushar is an instance of class Marks:",isinstance(tushar,Marks))
-print("tushar_ke_marks is an instance of class Student:",isinstance(tushar_ke_marks,Student))
-print("tushar_ke_marks is an instance of class Marks:",isinstance(tushar_ke_marks,Marks))
+print("Tushar is an instance of class Student:",isinstance(Tushar,Student))
+print("Tushar is an instance of class Marks:",isinstance(Tushar,Marks))
+print("Tushar_ke_marks is an instance of class Student:",isinstance(Tushar_ke_marks,Student))
+print("Tushar_ke_marks is an instance of class Marks:",isinstance(Tushar_ke_marks,Marks))
 
 print("Student is a subclass of class object:",issubclass(Student,object))
 print("Marks is a subclass of class object:",issubclass(Marks,object))
